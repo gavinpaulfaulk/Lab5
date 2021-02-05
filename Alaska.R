@@ -26,3 +26,5 @@ yr_mo <- str_c(yr,mo,sep = "-")
 head(yr_mo)
 
 a$Year <- yr_mo
+
+write.csv(x = a, file = "Alaska_fixedheader.csv")
